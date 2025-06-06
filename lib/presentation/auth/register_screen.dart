@@ -1,9 +1,8 @@
-
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pertemuan11/core/components/custom_text_field.dart';
-import 'package:pertemuan11/core/constants/colors.dart';
+import 'package:pertemuan11/core/components/spaces.dart';
 import 'package:pertemuan11/core/core.dart';
 import 'package:pertemuan11/data/model/request/auth/register_request_model.dart';
 import 'package:pertemuan11/presentation/auth/bloc/register/bloc/register_bloc.dart';

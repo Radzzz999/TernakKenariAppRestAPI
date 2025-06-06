@@ -3,6 +3,7 @@ import 'package:pertemuan11/data/model/request/auth/register_request_model.dart'
 import 'package:pertemuan11/data/repository/auth_repository.dart';
 
 
+
 part 'register_event.dart';
 part 'register_state.dart';
 
@@ -26,3 +27,4 @@ class RegisterBloc extends Bloc<RegisterEvent, RegisterState> {
     );
   }
 }
+
